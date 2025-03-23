@@ -5,7 +5,7 @@ var allSquares;
 var startPos;
 var endPos;
 var hasSelectedStart = false;
-var player = "rhino";
+var player = "elephant";
 var possibleMovesForStartingSquare = [];
 var possiblePushesForStartingSquare = [];
 var possibleMovesForBoardSquare = [];
@@ -715,7 +715,7 @@ function resetGame() {
         {direction: "", piece: ""}, {direction: "", piece: ""}, {direction: "", piece: ""}, {direction: "", piece: ""}, {direction: "", piece: ""},
         {direction: "up", piece: elephant1}, {direction: "up", piece: elephant2}, {direction: "up", piece: elephant3}, {direction: "up", piece: elephant4}, {direction: "up", piece: elephant5}
     ];
-    player = "rhino";
+    player = "elephant";
     unhighlightMoves();
     unhighlightPushes();
     unhighlightPush();

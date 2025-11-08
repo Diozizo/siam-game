@@ -5,7 +5,7 @@ var allSquares;
 var startPos;
 var endPos;
 var hasSelectedStart = false;
-var player = "elephant";
+var player = "rhino";
 var possibleMovesForStartingSquare = [];
 var possiblePushesForStartingSquare = [];
 var possibleMovesForBoardSquare = [];
